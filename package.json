@@ -4,8 +4,8 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
-		"build-ui": "cd frontend && npm run build",
-		"start": "next start",
+		"build-ui": "cd frontend && next build",
+		"start-ui": "cd frontend && next start",
 		"lint": "next lint"
 	},
 	"dependencies": {
